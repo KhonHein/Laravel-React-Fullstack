@@ -1,0 +1,109 @@
+.playbook_container {
+    width: 80vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin:2rem auto;
+
+}
+.playbook_info {
+    margin: .2rem auto;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.playbook_info .cover_photo {
+    width: 13rem;
+    height: 15rem;
+    border-radius: .5rem;
+    background: rgb(116, 163, 235);
+    padding: .3rem;
+    margin-top: 3rem;
+}
+.playbook_info .cover_photo img {
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+}
+.playbook_info .play_audio {
+    width: 75vw;
+    height: 12rem;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: .5rem;
+    background: black;
+    color: wheat;
+    text-align: center;
+}
+
+.playbook_info .play_audio .audio {
+ width: 90%;
+ height: auto;
+ margin: 0 auto;
+ display: flex;
+ justify-content: center;
+}
+.playbook_info .play_audio .audio audio{
+    width: 100%;
+    height: 100%;
+}
+.sound_progress {
+    width: 90%;
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: wheat;
+    align-items: center;
+}
+.sound_progress .duration span{
+    margin: 1rem auto;
+}
+.sound_progress .bar {
+    height: 2px;
+    width: 100%;
+    margin-top: .5rem;
+    background: rgb(176, 128, 197);
+}
+.sound_progress .prev_next {
+    display: flex;
+    justify-content: space-around;
+    margin-top: .5rem;
+    color: rgb(8, 8, 8);
+    color: white;
+}
+.sound_progress .prev_next i:hover {
+    background: rgb(103, 102, 193);
+    color: black;
+    border-color: rgb(16, 187, 239);
+}
+.sound_progress .prev_next i {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid white;
+    cursor: pointer;
+    background: transparent;
+    margin: auto 1rem;
+}
+
+.playbook_container .playbook_info .read_book {
+    width: 80vw;
+    border: 1px solid wheat;
+    border-radius: .5rem;
+    margin:rem auto;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: .5rem;
+    color: wheat;
+}

@@ -1,0 +1,40 @@
+
+.App {
+    background: #0F1924;
+}
+
+.bg_color {
+    background: #181D23;
+}
+
+.bg_color_1 {
+    background: #0F1924;
+}
+.bg_color_2 {
+    background: #323436;
+}
+
+.link:hover {
+    color: red;
+}
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+.link:active {
+    color: red;
+}
+
+.color_1 {
+    color: wheat;
+}
+*::-webkit-scrollbar {
+    width: 2px;
+    background:#22283d;
+}
+
+.item:hover {
+background: #181D23;
+color: yellow;
+}
